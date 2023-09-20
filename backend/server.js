@@ -1,5 +1,5 @@
 // NODE SERVER.
-const io = require("socket.io")(80);
+const io = require("socket.io")(8000);
 
 const users = {};
 

@@ -1,5 +1,5 @@
 //const socket = io('http://localhost:8000',{transports:["websocket"]});
-const socket = io('https://chatmailer-server1-io.onrender.com:80',{transports:["websocket"]});
+const socket = io('https://chatmailer-server1-io.onrender.com:',{transports:["websocket"]});
 
 const Form = document.getElementById('send-container') ;
 const messageInput = document.getElementById('messageInp');
